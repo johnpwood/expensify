@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render one expense passed through props 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/bbc123"
+  >
+    <h3>
+      Rent
+      :
+    </h3>
+  </Link>
+  <p>
+    Created at: 
+    -345600000
+  </p>
+  <p>
+    amount: 
+    10095
+  </p>
+</div>
+`;
+
+exports[`should render one expense passed through props 2`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/cbc123"
+  >
+    <h3>
+      Credit Card
+      :
+    </h3>
+  </Link>
+  <p>
+    Created at: 
+    345600000
+  </p>
+  <p>
+    amount: 
+    1950
+  </p>
+</div>
+`;
