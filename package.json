@@ -18,6 +18,7 @@
     "enzyme-to-json": "^3.3.4",
     "eslint": "^4.19.1",
     "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-react": "^7.8.2",
     "jest": "^23.0.0",
     "live-server": "^1.2.0",
@@ -45,8 +46,9 @@
   },
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack",
-    "dev-server": "webpack-dev-server",
+    "build:d": "webpack",
+    "build:p": "webpack -p --env production",
+    "dev-server": "webpack-dev-server --mode development",
     "test": "jest --config=jest.config.json"
   }
 }

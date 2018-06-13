@@ -2,13 +2,15 @@
     "parser": "babel-eslint",
     "plugins": [
     "react",
-    "babel"
+    "babel",
+    "jest"
     ],
     "env": {
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true,
+        "jest/globals": true
     },
     "parserOptions": {
         "ecmaVersion": 2018,
@@ -20,7 +22,8 @@
     },
     "extends": [
 	"eslint:recommended",
-	"plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
     ],
     "rules": {
         "no-const-assign": "warn",
