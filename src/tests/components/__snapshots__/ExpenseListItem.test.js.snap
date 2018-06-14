@@ -13,11 +13,11 @@ exports[`should render one expense passed through props 1`] = `
   </Link>
   <p>
     Created at: 
-    -345600000
+    December 27th, 1969
   </p>
   <p>
     amount: 
-    10095
+    $100.95
   </p>
 </div>
 `;
@@ -35,11 +35,11 @@ exports[`should render one expense passed through props 2`] = `
   </Link>
   <p>
     Created at: 
-    345600000
+    January 4th, 1970
   </p>
   <p>
     amount: 
-    1950
+    $19.50
   </p>
 </div>
 `;
